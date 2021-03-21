@@ -1,0 +1,13 @@
+{
+  "include": ["*.ts"],
+  "exclude": ["node_modules"],
+  "compilerOptions": {
+    "strict": true,
+    "noEmitOnError": true,
+    "noImplicitAny": true,
+    "noImplicitReturns": true,
+    "removeComments": true,
+    "lib": ["ES6","DOM","ES2015"],
+    "target": "ES5"
+  }
+}
